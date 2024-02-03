@@ -220,7 +220,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 320.0
+    Value: 980.0
   - Name: Height
     Type: BaseDataVariableType
     DataType: Size
@@ -235,4 +235,27 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/Optix_Report_Generator@BrowseName"
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Locate your generated file under C:\\Users\\yourusername\\AppData\\Local\\Rockwell Automation\\FactoryTalk Optix\\Emulator\\Projects\\Optix_Report_Generator\\ApplicationFiles"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 500.0
 - File: Screens/Screens.yaml
